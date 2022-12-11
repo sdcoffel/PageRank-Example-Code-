@@ -139,7 +139,7 @@ def pagerank(G, alpha=0.85, personalization=None,
 
     
     
-    
+ 
     
 #this is the implementation outside of networkx# 
 
