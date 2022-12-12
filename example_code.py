@@ -143,6 +143,6 @@ def pagerank(G, alpha=0.85, personalization=None,
     
 #this is the implementation outside of networkx# 
 
-G=nx.barabasi_albert_graph(60,41)
+G=nx.barabasi_albert_graph(60,41) # a graph of 60 nodes and 779 edges, stored in the Networkx library 
 pr=nx.pagerank(G,0.4)
 pr
